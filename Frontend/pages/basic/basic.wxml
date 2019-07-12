@@ -1,0 +1,28 @@
+<view class="container">
+
+  <view class="page__hd">
+        <view class="page__title">Welcome to Polynomial Calculation!</view>
+  </view>
+
+  <view class='weui-article__img'>
+    <image src='{{cxk}}' mode="aspectFit" style="height: 180px" />
+  </view>
+
+  <view class="page__hd">
+    <view class="page__title">Please input 2 polynomial: </view>
+    <input class="weui-article__input" placeholder='2 1 2 1' maxlength="10000" bindinput='polyInput1'></input>
+    <input class="weui-article__input" placeholder='2 1 2 1' maxlength="10000" bindinput='polyInput2'></input>
+    <picker class="weui-article__picker" bindchange="bindPickerChange" value="{{index}}" range="{{array}}">
+      <view class="picker">
+        Your choice：{{array[index]}}
+      </view>
+    </picker>
+    <button class="weui-btn" type="primary" bindtap='calculate'>Calculate!</button>
+  </view>
+
+  <view class="page__hd">
+    <view class="page__title">This is the result:\n</view>
+    <text>{{ans}}</text>
+  </view>
+
+</view>

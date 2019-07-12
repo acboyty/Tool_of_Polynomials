@@ -1,0 +1,27 @@
+.weui-article__img {
+  margin: 4px 0;
+  justify-content: center;
+  display:flex;
+}
+
+.weui-article__input {
+  margin-top: 15px;
+  font-size: 18px;
+  height: 40px;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  line-height: 2.55555556;
+  padding-left:14px;
+  padding-right:14px;
+}
+
+.weui-article__picker {
+  margin-top: 15px;
+  font-size: 18px;
+  height: 40px;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  line-height: 2.55555556;
+  padding-left:14px;
+  padding-right:14px;
+}
