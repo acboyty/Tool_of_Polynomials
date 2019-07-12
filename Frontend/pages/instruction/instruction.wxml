@@ -1,0 +1,26 @@
+<view class="page">
+
+  <view class="page__hd">
+        <view class="page__title">1. Input and output format</view>
+        <view class="page__subtitle">a. The input format should be: degree + coefficient.</view>
+        <view class="page__desc">e.g. -1 + x^3 => 3 -1 0 0 1</view>
+        <view class="page__desc">1 + 2 x + 3 x^2 => 2 1 2 3</view>
+        <view class="page__subtitle">b. The output format is: degree + coefficient + times</view>
+        <view class="page__desc">e.g. 2 1 2 1 2 => (1 + 2 x + x^2)^2</view>
+        <view class="page__desc">2 1 0 1 1 => 1 + x^2</view>
+  </view>
+
+  <view class="page__hd">
+        <view class="page__title">2. Limit of data size</view>
+        <view class="page__subtitle">a. Factorization</view>
+        <view class="page__desc">The degree of input polynomial should be less than 10.</view>
+        <view class="page__subtitle">b. Calculation</view>
+        <view class="page__desc">The degree should be less than 1000.</view>
+  </view>
+
+  <view class="page__hd">
+        <view class="page__title">3. More</view>
+        <view class="page__desc">If you would like to have a look at our project, you might pay a visit to https://github.com/acboyty/Tool_of_Polynomials .Thanks :)</view>
+  </view>
+
+</view>
