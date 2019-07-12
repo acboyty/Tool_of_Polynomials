@@ -1,0 +1,41 @@
+{
+  "pages": [
+    "pages/factor/factor",
+    "pages/basic/basic",
+    "pages/instruction/instruction",
+    "custom-tab-bar/index"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#f8f8f8",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black",
+    "backgroundColor": "#f8f8f8"
+  },
+  "tabBar": {
+    "color": "#a9b7b7",
+    "selectedColor": "#1b8dec",
+    "borderStyle": "white",
+    "list": [
+      {
+        "pagePath": "pages/factor/factor",
+        "text": "Factorization",
+        "iconPath": "/images/factor.png",
+        "selectedIconPath": "/images/factor_select.png"
+      },
+      {
+        "pagePath": "pages/basic/basic",
+        "text": "Calculation",
+        "iconPath": "/images/basic.png",
+        "selectedIconPath": "/images/basic_select.png"
+      },
+      {
+        "pagePath": "pages/instruction/instruction",
+        "text": "Instruction",
+        "iconPath": "/images/home.png",
+        "selectedIconPath": "/images/home_select.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}
