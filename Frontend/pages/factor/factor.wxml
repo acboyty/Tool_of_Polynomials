@@ -1,0 +1,21 @@
+<view class="page">
+
+  <view class="page__hd">
+        <view class="page__title">Welcome to Polynomial Factorization!</view>
+  </view>
+
+  <view class='weui-article__img'>
+    <image src='{{cxk}}' mode="aspectFit" style="height: 180px" />
+  </view>
+
+  <view class="page__hd">
+    <view class="page__title">Please input a polynomial: </view>
+    <input class="weui-article__input" placeholder='2 1 2 1' maxlength="100" bindinput='polyInput'></input>
+    <button class="weui-btn" type="primary" bindtap='get_factors'>Get factors!</button>
+    
+  </view>
+  <view class="page__hd">
+    <view class="page__title">This is the result:\n</view>
+    <text>{{factors}}</text>
+  </view>
+</view>
