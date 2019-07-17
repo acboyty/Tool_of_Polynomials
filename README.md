@@ -6,4 +6,4 @@ Java servlet is the bridge which links mini program and algorithm. We use Runtim
 
 The polynomial degree of factorization should be <= 10, calculation <= 1000.
 
-We feel it a pity that we did not deploy it to server, for we think it too troublesome to do ICP filing. So we use xiaomiqiu_ngrok(Thanks!) to test through the way.
+We feel it a pity that we did not deploy it to server, for we think it too troublesome to do ICP filing. So we use xiaomiqiu_ngrok(Thanks!) to test on Windows through the way.
